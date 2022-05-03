@@ -10,6 +10,4 @@ const root = createRoot(rootElement);
 
 const element = <h1>Wellcome</h1>;
 
-root.render(<React.StrictMode>element {element}</React.StrictMode>);
-
-// ReactDom is no longer in react 18, changing code was necessary
+root.render(<React.StrictMode> {element}</React.StrictMode>);
